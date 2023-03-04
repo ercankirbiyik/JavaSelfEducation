@@ -49,3 +49,7 @@ https://www.youtube.com/watch?v=jTlYrXopwO0
 
 https://www.youtube.com/watch?v=FO8iPIr60Hk
 
+
+Intellij IDEA Community Edition Mac OS, Windows ve Linux indirme ve kurulum
+
+https://www.jetbrains.com/idea/download/#section=mac

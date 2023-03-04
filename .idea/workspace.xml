@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1ae0c0f-98b1-42ec-aa20-760c02ddc791" name="Changes" comment="command added">
+    <list default="true" id="a1ae0c0f-98b1-42ec-aa20-760c02ddc791" name="Changes" comment="new installation descriptions added to README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -97,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677934921911</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new installation descriptions added to README.md">
+      <created>1677936487451</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677936487451</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +121,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new examples and command added" />
     <MESSAGE value="command added" />
-    <option name="LAST_COMMIT_MESSAGE" value="command added" />
+    <MESSAGE value="new installation descriptions added to README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="new installation descriptions added to README.md" />
   </component>
 </project>
