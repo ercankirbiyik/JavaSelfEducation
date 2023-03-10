@@ -74,7 +74,7 @@ public class Degiskenler {
 
 
 
-        Veri Tiplerini Dönüştürme
+        ** Veri Tiplerini Dönüştürme **
 
         byte --> short --> int --> long veri dönüştürme işlemi java tarafından soldan sağa doğru otomatik olarak yapılır,
         int i = 5;
@@ -118,8 +118,18 @@ public class Degiskenler {
 
         System.out.println("Ortalama F: " + (sayif1+sayif2+sayif3)/3); // 70.15
 
+
+        Char Veri Tipi : Karakterleri göstermek için kullanılır. 2 bytelık yer kaplar ve 2^16 tane karakter simgelenebilir.
+
+        Boolean Veri Tipi : Koşul durumlarında kullanılır. True veya False değeri alır.
+
          */
 
+        char a = 'A';
+        char b = 'B';
+        char c = 1000;
+
+        System.out.println(a + " "+ " "+b+ " "+ c);
 
         System.out.println("Good job");
 
