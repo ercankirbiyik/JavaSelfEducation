@@ -1,6 +1,8 @@
 package org.example;
 
-public class Degiskenler {
+import java.util.Scanner;
+
+public class EducationNotes {
 
     //Java metodları tanımak için main metoduna ihtiyaç duymaktadır
     public static void main(String[] args){
@@ -123,13 +125,59 @@ public class Degiskenler {
 
         Boolean Veri Tipi : Koşul durumlarında kullanılır. True veya False değeri alır.
 
-         */
+
 
         char a = 'A';
         char b = 'B';
         char c = 1000;
 
         System.out.println(a + " "+ " "+b+ " "+ c);
+
+         */
+        /*
+        //************* KULLANICIDAN INPUT ALMAMIZI SAĞLAYAN SCANNER KUTUPHANESI KULLANIMI***************
+
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Lütfen yaşınızı giriniz: ");
+
+        int yas = scanner.nextInt();
+
+        System.out.println("Yaşınız: " + yas + "/n");
+
+        System.out.println("Lütfen sayı giriniz: ");
+        if (scanner.hasNext()) {
+            int sayi = scanner.nextInt();
+            System.out.println("Sayı : " + sayi);
+        }else {
+            System.out.println("Lütfen bir sayı giriniz...!!!");
+        }
+
+         */
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Lütfen yaşınızı giriniz: ");
+        int yas = scanner.nextInt();
+
+        //nextLine() kullanımı bir sonraki string satırı okumayı sağlar.
+        scanner.nextLine(); //Dummy
+
+        System.out.println("Lütfen isminizi giriniz: ");
+        String isim = scanner.nextLine();
+
+
+        System.out.println("Yaş: " + yas);
+        System.out.println("İsim: " + isim);
+
+
+        int yas1 = scanner.nextInt();
+        int yas2 = scanner.nextInt();
+        int yas3 = scanner.nextInt();
+
+        System.out.println("Yaş1 : " + yas1 + " Yaş2: " + yas2 + " Yaş3: " + yas3);
+
 
         System.out.println("Good job");
 
