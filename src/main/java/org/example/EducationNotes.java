@@ -155,7 +155,7 @@ public class EducationNotes {
         }
 
          */
-
+        /*
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Lütfen yaşınızı giriniz: ");
@@ -177,6 +177,8 @@ public class EducationNotes {
         int yas3 = scanner.nextInt();
 
         System.out.println("Yaş1 : " + yas1 + " Yaş2: " + yas2 + " Yaş3: " + yas3);
+
+         */
 
 
         System.out.println("Good job");
