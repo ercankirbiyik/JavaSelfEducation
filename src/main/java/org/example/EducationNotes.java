@@ -197,7 +197,7 @@ public class EducationNotes {
 
  */
 
-
+        /*
         // BİR ARACIN KİLOMETREDE NE KADAR YAKTIĞINI HESAPLAMA
 
         Scanner scanner = new Scanner(System.in);
@@ -210,6 +210,28 @@ public class EducationNotes {
 
         System.out.println("Ödemeniz gereken tutar = " + (kurus * km) + " tldir!");
 
+
+         */
+
+        //DEĞİŞKEN DEĞERLERİNİ DEĞİŞTİRME
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Birinci sayıyı giriniz : ");
+        int birinci_sayi = scanner.nextInt();
+
+        System.out.print("İkinci sayıyı giriniz : ");
+        int ikinci_sayi = scanner.nextInt();
+
+        System.out.println("Değiştirilmeden önce...");
+        System.out.println("Birinci sayi : " + birinci_sayi + ", İkinci sayi : " + ikinci_sayi);
+
+        int gecici = birinci_sayi;
+        birinci_sayi = ikinci_sayi;
+        ikinci_sayi = gecici;
+
+        System.out.println("Değiştirildikten sonra...");
+        System.out.println("Birinci sayi : " + birinci_sayi + ", İkinci sayi : " + ikinci_sayi);
 
     }
 }
