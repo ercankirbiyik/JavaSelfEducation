@@ -126,14 +126,15 @@ public class EducationNotes {
         Boolean Veri Tipi : Koşul durumlarında kullanılır. True veya False değeri alır.
 
 
-
         char a = 'A';
         char b = 'B';
         char c = 1000;
 
         System.out.println(a + " "+ " "+b+ " "+ c);
-
          */
+
+
+
         /*
         //************* KULLANICIDAN INPUT ALMAMIZI SAĞLAYAN SCANNER KUTUPHANESI KULLANIMI***************
 
@@ -153,8 +154,10 @@ public class EducationNotes {
         }else {
             System.out.println("Lütfen bir sayı giriniz...!!!");
         }
-
          */
+
+
+
         /*
         Scanner scanner = new Scanner(System.in);
 
@@ -177,10 +180,11 @@ public class EducationNotes {
         int yas3 = scanner.nextInt();
 
         System.out.println("Yaş1 : " + yas1 + " Yaş2: " + yas2 + " Yaş3: " + yas3);
-
          */
 
-/*
+
+
+        /*
         // BEDEN KİTLE INDEKSİ ALMA İŞMLERİ(kilo / boy^2)
 
         Scanner scanner = new Scanner(System.in);
@@ -194,8 +198,9 @@ public class EducationNotes {
         System.out.println("Beden kitle endeksiniz : " + bki);
 
         System.out.println("Good job");
+         */
 
- */
+
 
         /*
         // BİR ARACIN KİLOMETREDE NE KADAR YAKTIĞINI HESAPLAMA
@@ -209,10 +214,11 @@ public class EducationNotes {
         int km = scanner.nextInt();
 
         System.out.println("Ödemeniz gereken tutar = " + (kurus * km) + " tldir!");
-
-
          */
 
+
+
+        /*
         //DEĞİŞKEN DEĞERLERİNİ DEĞİŞTİRME
 
         Scanner scanner = new Scanner(System.in);
@@ -232,6 +238,26 @@ public class EducationNotes {
 
         System.out.println("Değiştirildikten sonra...");
         System.out.println("Birinci sayi : " + birinci_sayi + ", İkinci sayi : " + ikinci_sayi);
+
+         */
+
+
+
+        // DİK KENARLARI VERİLEN ÜÇGENİN HİPOTENÜSÜNÜ BULMA
+
+        Scanner scanner = new Scanner(System.in);
+
+        int a;
+        int b;
+
+        System.out.print("Birinci kenarın değerini giriniz : ");
+        a = scanner.nextInt();
+
+        System.out.print("İkinci kenarın değerini giriniz : ");
+        b = scanner.nextInt();
+
+        double h = Math.sqrt(a*a + b*b);
+        System.out.println("Hipotenüsün değeri : " + h);
 
     }
 }
