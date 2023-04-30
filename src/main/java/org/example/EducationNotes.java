@@ -181,6 +181,18 @@ public class EducationNotes {
          */
 
 
+        // BEDEN KİTLE INDEKSİ ALMA İŞMLERİ(kilo / boy^2)
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Boyunuzu giriniz(Örn. 1.75) : ");
+        double boy = scanner.nextDouble();
+        System.out.print("Kilonuzu giriniz : ");
+        int kilo = scanner.nextInt();
+
+        double bki = kilo/(boy*boy);
+        System.out.println("Beden kitle endeksiniz : " + bki);
+
         System.out.println("Good job");
 
 
