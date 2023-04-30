@@ -180,7 +180,7 @@ public class EducationNotes {
 
          */
 
-
+/*
         // BEDEN KİTLE INDEKSİ ALMA İŞMLERİ(kilo / boy^2)
 
         Scanner scanner = new Scanner(System.in);
@@ -195,6 +195,20 @@ public class EducationNotes {
 
         System.out.println("Good job");
 
+ */
+
+
+        // BİR ARACIN KİLOMETREDE NE KADAR YAKTIĞINI HESAPLAMA
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Aracınız kilometre başına kaç kuruş yakıyor? (Örn. 0.69) : ");
+        double kurus = scanner.nextDouble();
+
+        System.out.print("Aracınızla kaç kilometre gittiniz? : ");
+        int km = scanner.nextInt();
+
+        System.out.println("Ödemeniz gereken tutar = " + (kurus * km) + " tldir!");
 
 
     }
