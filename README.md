@@ -1,5 +1,5 @@
 # Java Self Education 
-Java Kendime Türkçe Kaynak
+Java Türkçe Kaynak
 
 * JDK'nın Linux Ortamına Kurulumu İçin Terminal Komutları
 
