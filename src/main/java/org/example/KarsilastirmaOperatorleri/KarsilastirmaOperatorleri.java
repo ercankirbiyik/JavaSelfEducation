@@ -1,4 +1,4 @@
-package org.example;
+package org.example.KarsilastirmaOperatorleri;
 
 public class KarsilastirmaOperatorleri {
     public static void main(String[] args) {

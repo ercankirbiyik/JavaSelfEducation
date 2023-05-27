@@ -1,4 +1,4 @@
-package org.example;
+package org.example.GirisNotlari;
 
 import java.util.Scanner;
 

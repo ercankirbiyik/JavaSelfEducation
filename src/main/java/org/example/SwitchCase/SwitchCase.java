@@ -1,4 +1,4 @@
-package org.example;
+package org.example.SwitchCase;
 
 import java.util.Scanner;
 
